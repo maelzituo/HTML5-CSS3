@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo elementos</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: darkred;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        a:visited{
+            color: rgb(83, 8, 8);
+        }
+
+        a:active{
+            color: rgb(151, 222, 255);
+        }
+        
+        .especial{
+            background-color: darkorange;
+        }
+        
+        .especial::before{
+            content: '→';
+        }
+
+        .especial::after{
+            content: '←';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/maelduarte_/" target="_blank" class="especial">Insta do mael</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100018703562283" target="_blank" class="especial">Facebook do mael</a></li>
+        <li><a href="https://www.youtube.com/@maelduarte_" target="_blank">Canal do mael</a></li>
+    </ul>
+</body>
+</html>
