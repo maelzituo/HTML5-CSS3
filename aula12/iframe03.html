@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegando em iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vh;
+            height: 400px;
+            border: 2px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Teste de iframes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt rerum optio voluptates error itaque fugiat saepe, quae repudiandae, reprehenderit ad fuga omnis corrupti nobis voluptatem tempore dolorum vitae! Non, asperiores.</p>
+    <ul>
+        <li><a href="pag01.html" target="frame">Página 01</a></li>
+        <li><a href="pag02.html" target="frame">Página 02</a></li>
+        <li><a href="pag03.html" target="frame">Página 03</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit corrupti veniam atque! Ipsa accusantium fuga maiores unde non perferendis eum tempora facere nulla quis, sapiente recusandae repellendus dignissimos minima veritatis?</p>
+
+    <iframe  id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><img src='html-200.png'>">
+
+    </iframe>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus quidem, quisquam eveniet doloribus quasi velit illo dolore soluta et laboriosam sint laudantium dignissimos fugit ut itaque sed distinctio rerum consequuntur?</p>
+</body>
+</html>
