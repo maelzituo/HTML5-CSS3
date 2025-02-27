@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de emails e números de celulares</title>
+    <style>
+        fieldset{
+            border-radius: 10px;
+            width: 300px;
+        }
+
+        fieldset legend{
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <form action="cadastro.js" method="post">
+            <p>
+                <label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome" required maxlength="20" autocomplete="name">
+            </p>
+            <p>
+                <label for="iemail">Email: </label>
+                <input type="email" name="email" id="iemail" required autocomplete="email">
+            </p>
+            <p>
+                <label for="inum">Número: </label>
+                <input type="tel" name="num" id="inum" autocomplete="tel">
+            </p>
+    </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetar">
+        </p>
+    </form>
+</body>
+</html>
