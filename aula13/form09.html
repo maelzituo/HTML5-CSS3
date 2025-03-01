@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudando output</title>
+</head>
+<body>
+    <h1>Estudando output</h1>
+    <form action="cadastro.js">
+        <label for="inum">Número: </label>
+        <input type="range" name="num" id="inum" required min="0" max="10" value="5" oninput="ival.innerHTML = Number(inum.value)">
+        <output name="num" id="ival">5</output>
+
+    </form>
+</body>
+</html>
