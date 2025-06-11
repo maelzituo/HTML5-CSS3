@@ -20,10 +20,10 @@ header > h1{
 }
 
 menu{
-    display: block;
-    width: 90vw;
+    display: none;
+    width: 100vw;
     margin: auto;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 menu ul{
