@@ -23,13 +23,13 @@ header{
 }
 
 header h1{
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     flex: 0 0 200px;
     margin-bottom: 10px;
 }
 
 header nav{
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     display: flex;
     justify-content: end;
 }
