@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, .normal{
+    padding: 20px;
+}
+
+
+/*----CONTEINER PAI----*/
+
+.flex-content{
+    background-color: lightgray;
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+section > article.text-media{
+    
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section > article.media-text{
+
+    display: flex;
+    flex-flow: row wrap-reverse;
+    
+}
+
+article > div.text{
+    flex: 1 0 500px;
+    padding: 10px;
+}
+
+article > div.media{
+   flex: 1 1 400px;
+   
+}
+
+div.media > iframe{
+    display: block;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+div.media > img{
+    display: block;
+    margin: auto;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+p, h1 , h2{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+
+
